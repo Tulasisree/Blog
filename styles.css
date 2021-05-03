@@ -3,7 +3,7 @@
     width: 100%;
     height:550px;
     object-fit: cover;
-}*/
+}
 
 .top-navbar{
     position: relative;
@@ -56,4 +56,13 @@ h4{
 
 button{
     font-family: 'Righteous', cursive;
+}
+
+@media screen and (max-width:720px) {
+    .ed-img{
+        display: none;
+    }
+    .text-block{
+        display: none;
+    }
 }
